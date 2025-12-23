@@ -108,6 +108,8 @@ int main() {
                 continue;
             } 
             int len = list_current_dir(files_dirs, dir);
+        } else {
+            printf("Unknown command\n");
         }
         
         printf("\n");
